@@ -1,0 +1,12 @@
+Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Note, Alt. Supplier, Alt. Order Code
+D1 ,1,1N5819,Diodes_SMD:SOD-123,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+D2 D3 ,2,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+F1 ,1,T1.6A,Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201,,0031.8201,Schurter,5mmx20mm,Farnell,1162740,Fuse holder for slow acting 1.6A fuse,,
+F2 ,1,T1A,Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201,,0031.8201,Schurter,5mmx20mm,Farnell,1162740,Fuse holder for slow acting 1A fuse,,
+H1 H2 H3 H4 ,4,⌀3mm,Mounting_Holes:MountingHole_3.2mm_M3,
+K1 ,1,RELAY,jakub:PCNrelay,,PCN-105D3MHZ,TE Connectivity,SIP-7-4,Farnell,4444930,SPST-NO PCN series power relay 5 VDC 3 A,,
+P1 P2 ,2,3way terminal,Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol,,22-23-2031,Goosvn,SIP-3,Open Parts Library,320110029,3 way wire-to-board terminal block 5mm pitch,Farnell,2493623
+P3 ,1,4way connector,jakub:JST_PH_04way_vert,,1125S-4P,Taifeng,SIP-4,Open parts library,320110033,Grove connector,Farnell,9492437
+R1 R2 ,2,10k,Resistors_SMD:R_0603,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+T1 ,1,5V/1W,jakub:RAC01-02,,RAC01-05SC,Recom Power,33.7mmx22.2mm,Farnell,1903055,1 W 5 V AC/DC converter,,
+VR1 ,1,275V,Varistors:RV_Disc_D15.5_W5_P7.5,,B72214S0271K101,Epcos,D15.5_W5_P7.5,Farnell,1004362,275 VAC SIOV metal oxide varistor,,

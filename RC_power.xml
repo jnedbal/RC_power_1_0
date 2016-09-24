@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jakub/KiCAD/garduino_power_1_0/garduino_power.sch</source>
+    <date>Sun 25 Sep 2016 00:36:22 BST</date>
+    <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Raining Cats Power Supply</title>
+        <company>Serious Play Ltd</company>
+        <rev>1.0</rev>
+        <date>2016-09-24</date>
+        <source>garduino_power.sch</source>
+        <comment number="1" value="Jakub Nedbal"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="T1">
+      <value>5V/1W</value>
+      <footprint>jakub:RAC01-02</footprint>
+      <fields>
+        <field name="Part Number">RAC01-05SC</field>
+        <field name="Manufacturer">Recom Power</field>
+        <field name="Package">33.7mmx22.2mm</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1903055</field>
+        <field name="Note">1 W 5 V AC/DC converter</field>
+      </fields>
+      <libsource lib="device" part="TRANSFO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577AE215</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>3way terminal</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol</footprint>
+      <fields>
+        <field name="Part Number">22-23-2031</field>
+        <field name="Manufacturer">Goosvn</field>
+        <field name="Package">SIP-3</field>
+        <field name="Supplier">Open Parts Library</field>
+        <field name="Order Code">320110029</field>
+        <field name="Alt. Supplier">Farnell</field>
+        <field name="Alt. Order Code">2493623</field>
+        <field name="Note">3 way wire-to-board terminal block 5mm pitch</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577AFB60</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>RELAY</value>
+      <footprint>jakub:PCNrelay</footprint>
+      <fields>
+        <field name="Part Number">PCN-105D3MHZ</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Package">SIP-7-4</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">4444930</field>
+        <field name="Note">SPST-NO PCN series power relay 5 VDC 3 A</field>
+      </fields>
+      <libsource lib="jakub" part="RELAY_PCN-105D3MHZ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577B0019</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>T1.6A</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201</footprint>
+      <fields>
+        <field name="Part Number">0031.8201</field>
+        <field name="Manufacturer">Schurter</field>
+        <field name="Package">5mmx20mm</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1162740</field>
+        <field name="Note">Fuse holder for slow acting 1.6A fuse</field>
+      </fields>
+      <libsource lib="device" part="F_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577B1092</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577B122C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>577B144E</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>3way terminal</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol</footprint>
+      <fields>
+        <field name="Part Number">22-23-2031</field>
+        <field name="Manufacturer">Goosvn</field>
+        <field name="Package">SIP-3</field>
+        <field name="Supplier">Open Parts Library</field>
+        <field name="Order Code">320110029</field>
+        <field name="Alt. Supplier">Farnell</field>
+        <field name="Alt. Order Code">2493623</field>
+        <field name="Note">3 way wire-to-board terminal block 5mm pitch</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D9C98D</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>4way connector</value>
+      <footprint>jakub:JST_PH_04way_vert</footprint>
+      <fields>
+        <field name="Part Number">1125S-4P</field>
+        <field name="Manufacturer">Taifeng</field>
+        <field name="Package">SIP-4</field>
+        <field name="Supplier">Open parts library</field>
+        <field name="Order Code">320110033</field>
+        <field name="Alt. Supplier">Farnell</field>
+        <field name="Alt. Order Code">9492437</field>
+        <field name="Note">Grove connector</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D9CED1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DB4CDD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DB50F0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DB7F92</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>275V</value>
+      <footprint>Varistors:RV_Disc_D15.5_W5_P7.5</footprint>
+      <fields>
+        <field name="Part Number">B72214S0271K101</field>
+        <field name="Manufacturer">Epcos</field>
+        <field name="Package">D15.5_W5_P7.5</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1004362</field>
+        <field name="Note">275 VAC SIOV metal oxide varistor</field>
+      </fields>
+      <libsource lib="device" part="VR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E3270B</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>T1A</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201</footprint>
+      <fields>
+        <field name="Part Number">0031.8201</field>
+        <field name="Manufacturer">Schurter</field>
+        <field name="Package">5mmx20mm</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1162740</field>
+        <field name="Note">Fuse holder for slow acting 1A fuse</field>
+      </fields>
+      <libsource lib="device" part="F_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E45254</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>⌀3mm</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E65E92</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>⌀3mm</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E65F69</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>⌀3mm</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E65FA4</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>⌀3mm</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E65FEE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="F_Small">
+      <description>Fuse</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">F_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="RELAY_PCN-105D3MHZ">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">RELAY_PCN-105D3MHZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TRANSFO">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TRANSFO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="VR">
+      <description>VARISTANCE</description>
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">VR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(P3-Pad3)">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="2" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(K1-Pad4)">
+      <node ref="K1" pin="4"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="T1" pin="3"/>
+      <node ref="P3" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="5" name="/NEUTRAL">
+      <node ref="P1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="VR1" pin="2"/>
+      <node ref="T1" pin="1"/>
+    </net>
+    <net code="6" name="/LINE">
+      <node ref="K1" pin="3"/>
+      <node ref="F1" pin="2"/>
+      <node ref="F2" pin="1"/>
+      <node ref="VR1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="8" name="Net-(H3-Pad1)">
+      <node ref="H3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="12" name="/EARTH">
+      <node ref="P1" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="14" name="VCC">
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="T1" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="15" name="/RELAY">
+      <node ref="D2" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+  </nets>
+</export>
