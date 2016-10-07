@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jakub/KiCAD/garduino_power_1_0/garduino_power.sch</source>
-    <date>Sun 25 Sep 2016 00:36:22 BST</date>
+    <source>/home/jakub/KiCAD/guarduino_power_1_0/guarduino_power.sch</source>
+    <date>Fri 07 Oct 2016 00:58:33 BST</date>
     <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Raining Cats Power Supply</title>
+        <title>Guarduino Power Supply</title>
         <company>Serious Play Ltd</company>
         <rev>1.0</rev>
         <date>2016-09-24</date>
-        <source>garduino_power.sch</source>
+        <source>guarduino_power.sch</source>
         <comment number="1" value="Jakub Nedbal"/>
-        <comment number="2" value=""/>
+        <comment number="2" value="License: CC-BY-SA"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
@@ -139,7 +139,7 @@
         <field name="Part Number">1125S-4P</field>
         <field name="Manufacturer">Taifeng</field>
         <field name="Package">SIP-4</field>
-        <field name="Supplier">Open parts library</field>
+        <field name="Supplier">Open Parts Library</field>
         <field name="Order Code">320110033</field>
         <field name="Alt. Supplier">Farnell</field>
         <field name="Alt. Order Code">9492437</field>

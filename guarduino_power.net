@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/jakub/KiCAD/garduino_power_1_0/garduino_power.sch)
-    (date "Sun 25 Sep 2016 00:40:48 BST")
+    (source /home/jakub/KiCAD/RC_power_1_0/RC_power.sch)
+    (date "Sun 25 Sep 2016 20:43:27 BST")
     (tool "Eeschema (2015-12-10 BZR 6367)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company "Serious Play Ltd")
         (rev 1.0)
         (date 2016-09-24)
-        (source garduino_power.sch)
+        (source RC_power.sch)
         (comment (number 1) (value "Jakub Nedbal"))
         (comment (number 2) (value "License: CC-BY-SA"))
         (comment (number 3) (value ""))
@@ -121,7 +121,7 @@
         (field (name "Part Number") 1125S-4P)
         (field (name Manufacturer) Taifeng)
         (field (name Package) SIP-4)
-        (field (name Supplier) "Open parts library")
+        (field (name Supplier) "Open Parts Library")
         (field (name "Order Code") 320110033)
         (field (name "Alt. Supplier") Farnell)
         (field (name "Alt. Order Code") 9492437)

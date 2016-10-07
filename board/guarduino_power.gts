@@ -1,0 +1,1 @@
+/home/jakub/KiCAD/guarduino_power_1_0/board/guarduino_power-F.Mask.gts
